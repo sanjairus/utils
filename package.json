@@ -2,9 +2,9 @@
   "name": "@san/populate",
   "version": "1.0.0",
   "description": "Tool that will help populate dynamic values from a template file",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "run:dev": "nodemon src/index",
+    "start:dev": "nodemon index.ts",
     "test": "jest",
     "build": "tsc"
   },
