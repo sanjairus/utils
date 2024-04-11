@@ -1,4 +1,4 @@
-exports = {
+export = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'subject-case': [0],
