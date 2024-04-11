@@ -4,11 +4,13 @@
   "description": "Tool that will help populate dynamic values from a template file",
   "main": "index.js",
   "scripts": {
+    "run:dev": "nodemon src/index",
     "test": "npm run test"
   },
   "author": "Jairus San Juan",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.0",
     "ts-node": "10.9.2",
     "typescript": "5.4.5"
   }
