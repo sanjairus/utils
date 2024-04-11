@@ -1,0 +1,11 @@
+{
+  "name": "@san/populate",
+  "version": "1.0.0",
+  "description": "Tool that will help populate dynamic values from a template file",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Jairus San Juan",
+  "license": "ISC"
+}
