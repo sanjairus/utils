@@ -10,6 +10,12 @@
   },
   "author": "Jairus San Juan",
   "license": "ISC",
+   "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "devDependencies": {
     "@commitlint/config-conventional": "^19.1.0",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
