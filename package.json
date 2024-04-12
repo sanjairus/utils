@@ -2,7 +2,8 @@
   "name": "@san/populate",
   "version": "1.0.0",
   "description": "Tool that will help populate dynamic values from a template file",
-  "main": "index.ts",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start:dev": "nodemon index.ts",
     "test": "jest",
@@ -10,7 +11,7 @@
   },
   "author": "Jairus San Juan",
   "license": "ISC",
-   "files": [
+  "files": [
     "dist",
     "LICENSE",
     "README.md",
