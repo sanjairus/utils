@@ -21,14 +21,12 @@ Install Dependencies
 npm install
 ```
 
-Install Visual Studio code extension
+Install the following Visual Studio code extensions
 
 ```
-https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint
-
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-
-https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode
+code --install-extension rvest.vs-code-prettier-eslint --force
+code --install-extension dbaeumer.vscode-eslint --force
+code --install-extension SonarSource.sonarlint-vscode --force
 ```
 
 Run the app in development mode
