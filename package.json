@@ -1,5 +1,5 @@
 {
-  "name": "@san/populate",
+  "name": "@san/utils",
   "version": "1.0.0",
   "description": "Tool that will help populate dynamic values from a template file",
   "main": "dist/index.js",
