@@ -24,6 +24,10 @@
   },
   "author": "Jairus San Juan",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjairus/utils"
+  },
   "files": [
     "dist",
     "LICENSE",
