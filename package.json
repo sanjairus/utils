@@ -19,7 +19,8 @@
   "scripts": {
     "start:dev": "nodemon",
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "publish-pkg": "npm run build && npm publish"
   },
   "author": "Jairus San Juan",
   "license": "ISC",
