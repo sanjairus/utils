@@ -1,41 +1,37 @@
-# @san/utils
+# @jrssnjn/utils
 
 Contains one of many more to come helper functions, currently only includes `transform` which transforms dynamic values from a template
 
-## Getting Started
+```ts
+import { transform } from '@jrssnjn/utils/transformer';
+import path from 'node:path';
 
-These instructions will help you setup a local version of the application
+// template file path
+const path = path.join('location-of-file', 'welcome.email');
 
-### Prerequisites
+// dynamic values to update
+const fieldsToUpdate = { name: 'John Doe', age: '25' };
 
-Development Tools
-
-- [Typescript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io)
-
-### Setup
-
-Install Dependencies
-
-```bash
-npm install
+const updatedData: string = transform(path, fieldsToUpdate);
 ```
 
-Install the following Visual Studio code extensions
+## Installation
 
-```
-code --install-extension rvest.vs-code-prettier-eslint --force
-code --install-extension dbaeumer.vscode-eslint --force
-code --install-extension SonarSource.sonarlint-vscode --force
-```
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/).
 
-Run the app in development mode
+Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
-```bash
-npm run start:dev
+```console
+$ npm install @jrssnjn/utils
 ```
 
-## Development Workflow
+## Features
+
+- Transforming dynamic values from a template file
+
+## Contributing
 
 - Make a branch for your feature / bug-fix
 - Commit your changes
@@ -44,18 +40,19 @@ npm run start:dev
 - Push branch to remote
 - Submit a pull request
 
-## Contributing
+### Running Tests
 
-Submit a pull requests for thorough reviewing
+To run the test suite, first install the dependencies, then run `npm test`:
 
-## Versioning
+```console
+$ npm install
+$ npm test
+```
 
-We use [Semantic Versioning](http://semver.org/) for versioning.
+## People
 
-## Authors
+The author of `@jrssnjn/utils` is [Jairus San Juan](https://github.com/sanjairus)
 
-- Jairus San Juan
+## License
 
-## Acknowledgments
-
-- Hat tip to anyone whose code is used.
+[ISC](LICENSE)
