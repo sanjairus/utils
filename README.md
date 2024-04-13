@@ -1,6 +1,6 @@
-# @san/populate
+# @san/utils
 
-Package for transforming dynamic values from a template file
+Contains one of many more to come helper functions, currently only includes `transform` which transforms dynamic values from a template
 
 ## Getting Started
 
