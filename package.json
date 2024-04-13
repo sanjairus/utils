@@ -20,7 +20,7 @@
     "start:dev": "nodemon",
     "test": "jest",
     "build": "tsc",
-    "publish-pkg": "npm run build && npm publish"
+    "publish-pkg": "npm run build && npm publish --access=public"
   },
   "author": "Jairus San Juan",
   "license": "ISC",
