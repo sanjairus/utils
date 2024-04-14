@@ -14,12 +14,12 @@ Installation is done using the
 $ npm install @jrssnjn/utils
 ```
 
-# Transform
+# Interpolate
 
 Reads data from a file and transforms dynamic values from the said file.
 
 ```ts
-import { transform } from '@jrssnjn/utils/transformer';
+import { interpolate } from '@jrssnjn/utils/interpolate';
 import path from 'node:path';
 
 // "Hello, my name is {name}, {age} years old!"
@@ -30,7 +30,7 @@ const path = path.join('location-of-file', 'welcome.email');
 // dynamic values to update
 const fieldsToUpdate = { name: 'John Doe', age: '25' };
 
-const updatedData: string = transform(path, fieldsToUpdate);
+const updatedData: string = interpolate(path, fieldsToUpdate);
 console.log(updatedData); // "Hello, my name is John Doe, 25 years old!"
 ```
 
