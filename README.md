@@ -1,6 +1,10 @@
 # @jrssnjn/utils
 
-Contains one of many more to come helper functions, currently only includes `transform` which transforms dynamic values from a template
+Package containing useful helper functions.
+
+# Transform
+
+Reads data from a file and transforms dynamic values from the said file.
 
 ```ts
 import { transform } from '@jrssnjn/utils/transformer';
@@ -32,7 +36,7 @@ $ npm install @jrssnjn/utils
 
 ## Features
 
-- Transforming dynamic values from a template file
+- Transform
 
 ## Contributing
 
