@@ -2,14 +2,8 @@
   "name": "@jrssnjn/utils",
   "version": "1.0.3",
   "description": "Tool that will help populate dynamic values from a template file",
-  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "default": "./dist/index.js",
-      "require": "./dist/index.js"
-    },
     "./transformer": {
       "import": "./dist/transformer/index.mjs",
       "default": "./dist/transformer/index.js",
