@@ -2,6 +2,18 @@
 
 Package containing useful helper functions.
 
+## Installation
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/).
+
+Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+```console
+$ npm install @jrssnjn/utils
+```
+
 # Transform
 
 Reads data from a file and transforms dynamic values from the said file.
@@ -21,22 +33,6 @@ const fieldsToUpdate = { name: 'John Doe', age: '25' };
 const updatedData: string = transform(path, fieldsToUpdate);
 console.log(updatedData); // "Hello, my name is John Doe, 25 years old!"
 ```
-
-## Installation
-
-This is a [Node.js](https://nodejs.org/en/) module available through the
-[npm registry](https://www.npmjs.com/).
-
-Installation is done using the
-[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
-
-```console
-$ npm install @jrssnjn/utils
-```
-
-## Features
-
-- Transform
 
 ## Contributing
 
