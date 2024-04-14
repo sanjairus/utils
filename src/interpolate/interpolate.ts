@@ -7,7 +7,7 @@ import { existsSync, readFileSync } from 'node:fs';
  * @returns File content with transformed data
  * @throws Error if file does not exists.
  */
-export function transform(
+export function interpolate(
   path: string,
   source: Record<string, string>,
 ): string {
