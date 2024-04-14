@@ -6,6 +6,8 @@ Contains one of many more to come helper functions, currently only includes `tra
 import { transform } from '@jrssnjn/utils/transformer';
 import path from 'node:path';
 
+// "Hello, my name is {name}, {age} years old!"
+
 // template file path
 const path = path.join('location-of-file', 'welcome.email');
 
@@ -13,6 +15,7 @@ const path = path.join('location-of-file', 'welcome.email');
 const fieldsToUpdate = { name: 'John Doe', age: '25' };
 
 const updatedData: string = transform(path, fieldsToUpdate);
+console.log(updatedData); // "Hello, my name is John Doe, 25 years old!"
 ```
 
 ## Installation
