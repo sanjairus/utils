@@ -4,10 +4,10 @@
   "description": "Tool that will help populate dynamic values from a template file",
   "types": "dist/index.d.ts",
   "exports": {
-    "./transformer": {
-      "import": "./dist/transformer/index.mjs",
-      "default": "./dist/transformer/index.js",
-      "require": "./dist/transformer/index.js"
+    "./interpolate": {
+      "import": "./dist/interpolate/index.mjs",
+      "default": "./dist/interpolate/index.js",
+      "require": "./dist/interpolate/index.js"
     }
   },
   "scripts": {
