@@ -1,6 +1,6 @@
 {
   "name": "@jrssnjn/utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Tool that will help populate dynamic values from a template file",
   "types": "dist/index.d.ts",
   "exports": {
