@@ -22,16 +22,16 @@ Reads data from a file and transforms dynamic values from the said file.
 import { interpolate } from '@jrssnjn/utils/interpolate';
 import path from 'node:path';
 
-// "Hello, my name is {name}, {age} years old!"
+// <p>Welcome {title} {name}!</p>
 
 // template file path
 const path = path.join('location-of-file', 'welcome.email');
 
 // dynamic values to update
-const fieldsToUpdate = { name: 'John Doe', age: '25' };
+const fieldsToUpdate = { title: 'Mr.', name: 'John Doe' };
 
 const updatedData: string = interpolate(path, fieldsToUpdate);
-console.log(updatedData); // "Hello, my name is John Doe, 25 years old!"
+console.log(updatedData); // // <p>Welcome Mr. John Doe!</p>
 ```
 
 ## Contributing
