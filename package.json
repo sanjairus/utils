@@ -11,7 +11,7 @@
     }
   },
   "scripts": {
-    "start:dev": "nodemon",
+    "start:dev": "nodemon ",
     "test": "jest",
     "build": "tsc",
     "publish-pkg": "npm run build && npm publish --access=public"
